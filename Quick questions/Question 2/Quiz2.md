@@ -1,5 +1,6 @@
 # Câu hỏi quá trình:
  Tìm ví dụ về bài toán regression ***TRONG THỰC TẾ***
+ 
  **Yêu cầu:** Ghi rõ input, output và cách thu thập + xử lý data
 ## Ví dụ 1: Dự đoán lượng khí thải CO2 của một chiếc xe hơi dựa trên kích thước của động cơ
 * **Input:** Thể tích( int ), trọng lượng của xe( int )
