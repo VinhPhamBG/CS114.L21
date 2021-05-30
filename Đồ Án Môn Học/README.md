@@ -46,12 +46,12 @@
 | Label | Train | Test |
 |-------|-------|------|
 |Angry  |3995   |958   |
-|Disgust|436    |111  |
-|Fear   |4097   |1024   |
-|Happy  |7215   |1774   |
+|Disgust|436    |111   |
+|Fear   |4097   |1024  |
+|Happy  |7215   |1774  |
 |Sad    |4830   |1247  |
-|Surprise|3171  |831  |
-|Neutral|4965   |1233   |
+|Surprise|3171  |831   |
+|Neutral|4965   |1233  |
   
 * **Nhận xét:** Nhận thấy dữ liệu trên không cân về số lượng ảnh của các  categories cụ thể là ở nhóm Disgust rất ít còn Happy lại rất nhiều. Hiện tại chúng em đề ra phương pháp và đang tìm thêm nguồn ảnh khác để bù thêm cho nhóm Disgust.
 
