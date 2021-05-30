@@ -75,4 +75,4 @@
 #### **2. Feature Engineering:**
 
 * Chúng em đang thực hiện các phương phápháp khác nhau trong quá trình rút trích đặc trưng ảnh như và xử dụng các mô hình học sâu (Deep learning)
-* Co ảnh bằng các rescale ảnh bằng cách chia mỗi pixel cho 255 để dễ hội tụ hơnhơn, lật ảnh, xoa ảnh để có thêm dữ liệu sau đó đưa và mô hình deep learning để rút trích đặc trưng cụ thể nhóm đang sử dụng và so sánh hai mô hình Resnet50 và VGG16 có sử dụng thêm phương pháp Regularization cụ thể là Batch Normalization để chuẩn hóa features giảm overfitoverfitingoverfiting
+* Co ảnh bằng các rescale ảnh bằng cách chia mỗi pixel cho 255 để dễ hội tụ hơnhơn, lật ảnh, xoa ảnh để có thêm dữ liệu sau đó đưa và mô hình deep learning để rút trích đặc trưng cụ thể nhóm đang sử dụng và so sánh hai mô hình Resnet50 và VGG16 có sử dụng thêm phương pháp Regularization cụ thể là Batch Normalization để chuẩn hóa features giảm overfiting
