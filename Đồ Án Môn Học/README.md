@@ -40,19 +40,39 @@
 * Hiện tại nhóm đang trong quá trình thu thập dữ liệu, do tình hình dịch bệnh và thời gian có hạn nên nhóm không thể thu chụp ảnh thực tế được, nên hiện tại nhóm đang tìm kiếm các các nguồn dataset khuôn mặt trên mạng.
 * Chúng em có tìm được dataset của một challenge trên kaggle: ***Challenges in Representation Learning: Facial Expression Recognition Challenge 2013***
   - Link: https://www.kaggle.com/c/challenges-in-representation-learning-facial-expression-recognition-challenge/data
-* Dữ liệu bao gồm 35,887 bức ảnh xám khuôn mặt người được cân giữa với kích thước 48x48 pixel chia làm 2 set là train set và test set với tỉ lệ 4:1. Mỗi set có 7 categories được đánh số từ 0 đến 6 (0=Angry, 1=Disgust, 2=Fear, 3=Happy, 4=Sad, 5=Surprise, 6=Neutral)
-* Dataset được phân chia cụ thể như sau: Train set với 28,709 bức ảnh, Test set với 7,178 bức ảnh.
+* Dữ liệu bao gồm 35,887 bức ảnh xám khuôn mặt người được cân giữa với kích thước 48x48 pixel với Features là integers 0-255. Bộ dữ liệu gồm 7 categories được đánh số từ 0 đến 6 (0=Angry, 1=Disgust, 2=Fear, 3=Happy, 4=Sad, 5=Surprise, 6=Neutral) với số lượng từng class như sau:
 
-| Label | Train | Test |
-|-------|-------|------|
-|Angry  |3995   |958   |
-|Disgust|436    |111   |
-|Fear   |4097   |1024  |
-|Happy  |7215   |1774  |
-|Sad    |4830   |1247  |
-|Surprise|3171  |831   |
-|Neutral|4965   |1233  |
+
+| Classes| Files |
+|------- |-------|
+|Angry   |4953   |
+|Disgust |547    |
+|Fear    |5121   |
+|Happy   |8989   |
+|Sad     |6077   |
+|Surprise|4002   |
+|Neutral |6198   |
   
 * **Nhận xét:** Nhận thấy dữ liệu trên không cân về số lượng ảnh của các  categories cụ thể là ở nhóm Disgust rất ít còn Happy lại rất nhiều. Hiện tại chúng em đề ra phương pháp và đang tìm thêm nguồn ảnh khác để bù thêm cho nhóm Disgust.
 
 ### **III. MÔ TẢ ĐẶC TRƯNG DỮ LIỆU:**
+
+#### **1. Phân chia dữ liệu:**
+* Dataset được nhóm phân chia cụ thể như sau: Trainset với 28,709 bức ảnh, Testset với 7,178 bức ảnh.
+
+| Label | Train | Test |
+|-------|-------|------|
+|Angry  |3995   |958   |
+|Disgust|436    |111  |
+|Fear   |4097   |1024   |
+|Happy  |7215   |1774   |
+|Sad    |4830   |1247  |
+|Surprise|3171  |831  |
+|Neutral|4965   |1233   |
+
+* Trong Trainset chúng em lấy 20% làm Validation set tức 22,968 ảnh Trainset và 5741 Validation set 
+
+#### **2. Feature Engineering:**
+
+* Chúng em đang thực hiện các phương phápháp khác nhau trong quá trình rút trích đặc trưng ảnh như và xử dụng các mô hình học sâu (Deep learning)
+* Co ảnh bằng các rescale ảnh bằng cách chia mỗi pixel cho 255 để dễ hội tụ hơnhơn, lật ảnh, xoa ảnh để có thêm dữ liệu sau đó đưa và mô hình deep learning để rút trích đặc trưng cụ thể nhóm đang sử dụng và so sánh hai mô hình Resnet50 và VGG16 có sử dụng thêm phương pháp Regularization cụ thể là Batch Normalization để chuẩn hóa features giảm overfitoverfitingoverfiting
