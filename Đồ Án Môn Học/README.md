@@ -27,7 +27,7 @@
    - Với sự hòa trộn nhiều nguyên liệu, gia vị đặc trưng của miền nhiệt đới, du khách sẻ khó có thể biết được các nguyên liệu có trong món ăn, điều này đặc biệt ảnh hưởng đến những du khách có cơ địa dị ứng với một số loại thực phẩm hay gia vị.
    - Hiện nay, một bộ phận nhỏ tiểu thương buôn bán ẩm thực đường phố có tình trạng "chặt chém" tăng giá đối với khách du lịch.
 * Chính vì những lí do trên chúng em đề xuất đồ án: *"Nhận dạng món ăn đường phố Việt Nam qua hình ảnh"* bằng cách xây dựng model máy học nhận để nhận dạng hình ảnh món ăn đường phố Việt và từ đó có thể phát triển một ứng dụng cung cấp thông tin về tên món, thành phần nguyên liệu, khoản giá, cũng như các địa điểm có bán nổi tiếng (trên địa bàn TP.HCM) từ ảnh chụp. 
-* Chúng em mong ràng đồ án này có thể phần nào tạo điều kiện thuận lợi cho việc tiếp cận ẩm thực đường phố Việt của du khách nước ngoài và phần nào lan tỏa văn hóa ẩm thực dường phố Việt rang thế giới.
+* Chúng em mong rằng đồ án này có thể phần nào tạo điều kiện thuận lợi cho việc tiếp cận ẩm thực đường phố Việt của du khách nước ngoài và phần nào lan tỏa văn hóa ẩm thực dường phố Việt rang thế giới.
 ## **NỘI DUNG ĐỒ ÁN:**
 ### **I. MÔ TẢ BÀI TOÁN:**
  Với đề tài này chúng em mong muốn xây dựng một model máy học có thể thực hiện hai việc là ***phát hiện món ăn*** (*food detection*) và ***nhận dạng được món*** (*food recognition*) với:
