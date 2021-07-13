@@ -31,7 +31,7 @@
 * Chúng em mong rằng đồ án này có thể phần nào tạo điều kiện thuận lợi cho việc tiếp cận ẩm thực đường phố Việt của du khách nước ngoài và phần nào lan tỏa văn hóa ẩm thực dường phố Việt rang thế giới.
 ## **NỘI DUNG ĐỒ ÁN:**
 ### **I. MÔ TẢ BÀI TOÁN:**
- Với đề tài này chúng em mong muốn xây dựng một model máy học có thể thực hiện hai việc là ***phát hiện món ăn*** (*food detection*) và ***nhận dạng được món*** (*food recognition*) với:
+ Với đề tài này chúng em mong muốn xây dựng một model máy học có thể thực hiện việc ***nhận dạng được món*** (*food recognition*) với:
 * **Input:** một ảnh chụp (bằng smartphone hoặc máy ảnh)
 * **Output:** tấm ảnh trên với bounding box bao quanh món ăn có trong ảnh và tên món bên cạnh.
 
