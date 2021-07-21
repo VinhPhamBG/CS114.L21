@@ -21,4 +21,3 @@
 | 2      | 19522389      | Nguyễn Minh Trí     |19522389@gm.uit.edu.vn   |
 | 3      | 19521759      | Trương Xuân Linh    |19521759@gm.uit.edu.vn   |
 
-## ĐỒ ÁN
